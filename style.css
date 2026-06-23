@@ -108,5 +108,60 @@ article{
     padding: 40px;
 }
 #contatos{
-    
+    flex-direction: column;
+}
+label, input{
+    display: block;
+    padding: 4px;
+}
+input {
+    border-radius: 8px;
+    border: 1px solid #9CBCA8;
+    background: var(--bg-white, #FFF);
+    width: 400px;
+    height: 40px;
+    margin-bottom: 24px;
+}
+#mensagem{
+    height: 160px;
+}
+fieldset{
+    border: none;
+    display:flex;
+    flex-direction: column;
+
+}
+#contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    padding-left: 0;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+footer p{
+    text-align: center;
+}
+.btn{
+    width: auto;
+    padding: 8px 24px;
+    align-self: flex-end;
+}
+footer div img{
+    width: 48px;
+    margin: 12px;
+}
+/* HOVER - estilização para quando o mouse passar sobre o elemento */
+/* PSEUDO-CLASSE é um recurso do css que permite estilizar um elemento html com base em um estado especifico ou em fatores externos, sem precisar alterar o codigo html */
+
+header:hover{
+    background-color: #9cbca89a;
+}
+.btn-project:hover{
+    box-shadow: 2px 2px 2px 2px #828282;
 }
