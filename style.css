@@ -162,6 +162,6 @@ footer div img{
 header:hover{
     background-color: #9cbca89a;
 }
-.btn-project:hover{
-    box-shadow: 2px 2px 2px 2px #828282;
+.btn-ghost:hover{
+    box-shadow: 2px 2px 2px 2px #9cbca89a;
 }
